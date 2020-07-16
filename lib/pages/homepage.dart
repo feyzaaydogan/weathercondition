@@ -53,7 +53,9 @@ class _HomeState extends State<Home> {
                         '${data['name'][0].toUpperCase()}${data['name'].substring(1)}',
                         style: TextStyle(
                           fontSize: 40.0,
+                          
                           fontWeight: FontWeight.bold,
+                          
                           color: Colors.blue[900],
                         ),
                       ),
